@@ -97,4 +97,19 @@ body {
   }
 }
 
+.ql-container {
+  font-size: 16px !important;
+}
+
 @import "~@uploadthing/react/styles.css";
+
+/* Fix AlertDialog color */
+.alert-dialog-content {
+  background-color: hsl(0, 0%, 100%) !important; /* Default light background */
+  color: hsl(240, 10%, 3.9%) !important; /* Default foreground */
+}
+.dark .alert-dialog-content {
+  background-color: hsl(240, 10%, 3.9%) !important; /* Default dark background */
+  color: hsl(0, 0%, 98%) !important; /* Default foreground */
+}
+
