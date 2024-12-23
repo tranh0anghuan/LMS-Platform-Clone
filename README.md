@@ -7,7 +7,7 @@ Our Online Course Learning Platform is a cutting-edge Learning Management System
 - **Database:** MongoDB  
 - **Authentication:** Clerk
 - **Payment:** Stripe
-- **Other:** Mux
+- **Other:** Mux, Uploadthing, Zustand, Rechart
 
 ## Features:
 
